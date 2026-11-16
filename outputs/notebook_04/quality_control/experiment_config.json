@@ -1,0 +1,22 @@
+{
+    "experiment": "Notebook 04 - Classical foreground ROI extraction",
+    "method": "Otsu threshold + morphological closing + largest connected component",
+    "padding_fraction": 0.06,
+    "morph_kernel_size": 7,
+    "minimum_mask_fraction": 0.02,
+    "maximum_mask_fraction": 0.95,
+    "classes": [
+        "glioma",
+        "meningioma",
+        "notumor",
+        "pituitary"
+    ],
+    "splits": [
+        "Training",
+        "Testing"
+    ],
+    "primary_output": "e:\\SEM5\\ERA\\ERA_Project\\Brain_Tumor\\outputs\\notebook_04\\roi_cropped",
+    "auxiliary_masked_output": "e:\\SEM5\\ERA\\ERA_Project\\Brain_Tumor\\outputs\\notebook_04\\masked_preview",
+    "quality_report": "e:\\SEM5\\ERA\\ERA_Project\\Brain_Tumor\\outputs\\notebook_04\\quality_control\\roi_extraction_quality_report.csv",
+    "note": "ROI cropping is not validated medical skull stripping or tumor segmentation."
+}

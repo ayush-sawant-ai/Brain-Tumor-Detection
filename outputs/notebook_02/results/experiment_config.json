@@ -1,0 +1,36 @@
+{
+    "experiment": "Notebook 02 - ResNet50 Baseline",
+    "date": "2026-11-15T23:48:16.217188",
+    "architecture": "ResNet50",
+    "pretrained_weights": "ImageNet",
+    "image_size": [
+        224,
+        224
+    ],
+    "batch_size": 32,
+    "validation_split": 0.2,
+    "initial_epochs": 8,
+    "fine_tune_epochs": 10,
+    "fine_tune_layers": 30,
+    "initial_learning_rate": 0.001,
+    "fine_tune_learning_rate": 1e-05,
+    "classes": [
+        "glioma",
+        "meningioma",
+        "notumor",
+        "pituitary"
+    ],
+    "augmentation": [
+        "horizontal_flip",
+        "rotation",
+        "zoom",
+        "contrast"
+    ],
+    "metrics": {
+        "accuracy": 0.911875,
+        "precision_macro": 0.9134185188987599,
+        "recall_macro": 0.9118750000000001,
+        "f1_macro": 0.910020383498447,
+        "test_loss": 0.522830069065094
+    }
+}

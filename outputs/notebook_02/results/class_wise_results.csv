@@ -1,0 +1,5 @@
+Class,Total Images,Correct Predictions,Incorrect Predictions,Recall
+glioma,400,312,88,0.78
+meningioma,400,351,49,0.8775
+notumor,400,399,1,0.9975
+pituitary,400,397,3,0.9925

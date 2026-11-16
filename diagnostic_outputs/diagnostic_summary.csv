@@ -1,0 +1,8 @@
+Potential issue,Evidence from this audit,Recommended follow-up
+1. Exact duplicate leakage,0 files participate in exact cross-split duplicate groups.,Review/remove duplicates from one split; verify patient-level separation.
+2. Label inconsistency,0 files participate in exact-duplicate groups with conflicting labels.,Review against authoritative annotations; do not relabel from model predictions alone.
+3. Background/acquisition bias,Image statistics and metadata-only CV results are in image_statistics.csv and notebook output.,Inspect class/split distribution shifts; use Grad-CAM and masking tests to verify shortcut reliance.
+4. Feature separability,Embedding plots and silhouette score are produced only when a compatible model is loaded.,Inspect overlapping classes and validate with a patient-independent split.
+5. Class imbalance,Train majority/minority count ratio: 1.00,Use class weights or balanced sampling; collect more examples for underrepresented classes.
+6. Resolution/preprocessing,7200 images inventoried; inspect dimension/aspect-ratio and resize comparison plots.,Match inference preprocessing to training and assess aspect-preserving resize/crop alternatives.
+7. Fine-tuning strategy,Trainable parameter counts/layer configuration shown only when a model is loaded.,Compare frozen-head training and controlled partial fine-tuning with identical data splits.

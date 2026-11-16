@@ -1,0 +1,12 @@
+{
+  "both_correct": 1428,
+  "resnet_only_correct": 51,
+  "vgg_only_correct": 27,
+  "both_wrong": 94,
+  "mcnemar_exact_p_value": 0.008771714457060136,
+  "accuracy_difference_resnet_minus_vgg": 0.014999999999999902,
+  "paired_bootstrap_95ci": [
+    0.004375000000000018,
+    0.026249999999999996
+  ]
+}

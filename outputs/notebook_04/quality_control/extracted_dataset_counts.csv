@@ -1,0 +1,9 @@
+split,class_name,image_count
+Training,glioma,1400
+Training,meningioma,1400
+Training,notumor,1400
+Training,pituitary,1400
+Testing,glioma,400
+Testing,meningioma,400
+Testing,notumor,400
+Testing,pituitary,400

@@ -1,0 +1,24 @@
+{
+    "Experiment": "Original vs ROI-Cropped",
+    "Architecture": "ResNet50",
+    "Pretrained Weights": "ImageNet",
+    "Image Size": [
+        224,
+        224
+    ],
+    "Batch Size": 32,
+    "Random Seed": 42,
+    "Classes": [
+        "glioma",
+        "meningioma",
+        "notumor",
+        "pituitary"
+    ],
+    "Original Model": {
+        "Condition": "original",
+        "Accuracy": 0.919375,
+        "Macro Precision": 0.9288239790971223,
+        "Macro Recall": 0.919375,
+        "Macro F1": 0.9162961058561736,
+        "Weighted F1": 0.9162961058561736,
+        "Mean Confidence": 

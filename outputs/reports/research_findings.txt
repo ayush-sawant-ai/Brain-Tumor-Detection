@@ -1,0 +1,10 @@
+Best individual accuracy: ResNet50 (0.9244); best macro-F1: ResNet50 (0.9226).
+Ensemble accuracy/macro-F1 difference from stronger individual: +0.0019/+0.0021.
+Agreement 0.9375; disagreement 0.0625.
+Ensemble error rate on agreeing/disagreeing cases: 0.0480/0.4600.
+Mean ensemble entropy on correct/incorrect predictions: 0.1058/0.4611.
+Test ECE ResNet/VGG/ensemble: 0.0446/0.0270/0.0119; lower ECE is better, but no validation calibration was fit.
+Lowest mean robustness accuracy: Gaussian noise
+Mean sampled explanation correlation/cosine: 0.0174/0.3317.
+Explanation similarity measures consistency only; no segmentation masks available for localization metrics.
+Selective thresholds are exploratory, not deployment-ready.

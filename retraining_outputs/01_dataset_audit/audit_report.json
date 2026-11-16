@@ -1,0 +1,19 @@
+{
+    "total_images": 7200,
+    "valid_images": 7200,
+    "invalid_images": 0,
+    "number_of_classes": 4,
+    "classes": [
+        "glioma",
+        "meningioma",
+        "notumor",
+        "pituitary"
+    ],
+    "duplicate_hash_groups": 153,
+    "conflicting_label_groups": 0,
+    "mean_width": 453.30291666666665,
+    "mean_height": 456.89916666666664,
+    "mean_brightness": 47.55819109961717,
+    "mean_contrast": 47.158952967252304,
+    "mean_foreground_ratio": 0.591456256078648
+}

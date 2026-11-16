@@ -1,0 +1,5 @@
+true_class,total_images,correct,mean_confidence,incorrect,error_rate
+glioma,400,312,0.9428789,88,0.22
+meningioma,400,351,0.92001206,49,0.1225
+notumor,400,399,0.99736005,1,0.0025
+pituitary,400,397,0.9963138,3,0.0075

@@ -1,0 +1,18 @@
+{
+    "test_accuracy": 0.911875,
+    "macro_precision": 0.9134185188987599,
+    "macro_recall": 0.9118750000000001,
+    "macro_f1": 0.910020383498447,
+    "mean_confidence_all": 0.9641411304473877,
+    "mean_confidence_correct": 0.9780126214027405,
+    "mean_confidence_incorrect": 0.8206062912940979,
+    "ece_10_bins": 0.05277641538530591,
+    "number_of_test_images": 1600,
+    "number_misclassified": 141,
+    "class_names": [
+        "glioma",
+        "meningioma",
+        "notumor",
+        "pituitary"
+    ]
+}

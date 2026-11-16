@@ -1,0 +1,7 @@
+sample_type,index,heatmap_correlation,cosine_similarity
+both_correct_agree,1,0.5043726822500141,0.7548865079879761
+both_correct_confidence_gap,5,-0.11353313772336712,0.2480764389038086
+disagreement,0,-0.16071201360581658,0.16192151606082916
+agree_wrong,4,,
+both_models_wrong,4,,
+high_uncertainty,0,-0.16071201360581658,0.16192151606082916
